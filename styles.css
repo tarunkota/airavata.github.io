@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color to blue */
+body {
+    background-color: #0047AB;
+    font-family: Arial, sans-serif; /* Default font for body text */
+}
+
+/* Style the header with logo and company name */
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: left;
+}
+
+.logo img {
+    max-width: 50px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline-block;
+    color: #DFD8FF;
+    font-size: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-family: Crux; /* Specify your logo font here */
+}
+
+/* Style the main content */
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content p {
+    color: white;
+    font-size: 60px;
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: Garamond, sans-serif; /* Specify your body text font here */
+}
+
+/* Style the footer with "Coming Soon" and arrow */
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+.coming-soon p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-135deg);
+    margin-top: -5px;
+}
